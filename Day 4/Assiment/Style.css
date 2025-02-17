@@ -1,0 +1,92 @@
+.navbar{
+    height: 60px;
+    background-color: #0e86d4;
+    text-align: left;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    
+}
+.add_first{
+    color:white;
+    font-size: 2rem;
+    padding-top: 5px;
+    margin-right: 1100px;
+    padding-bottom: 5px;    
+}
+.home{
+    color: white;
+}
+.about{
+    color: white;
+}
+.contact{
+    color: white;
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10%;
+    text-align: center;
+   
+    
+}
+.box1:hover{
+    background-image:url("https://w0.peakpx.com/wallpaper/211/653/HD-wallpaper-best-nature-for-laptop-4-nature-1600x900-nature.jpg");
+    background-size: cover; 
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10%;
+    text-align: center;
+    
+}
+.box2:active{
+    background-image: url("https://3.imimg.com/data3/RU/MX/MY-7516435/goa-beachs.jpg");
+    background-size: cover;
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10%;
+    text-align: center;
+    
+}
+.box3:hover{
+    background-color: rgb(228, 161, 16);
+
+}
+
+.box3:active{
+    background-image: url("https://rumkisgoldenspoon.com/wp-content/uploads/2021/09/Kolkata-chicken-biryani.jpg");
+    background-size: cover;
+    transition: background-image 2s ease-in-out 0.25s ;
+}
+
+
+.body{
+    height: 600px;
+    background-color: #d4f1f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+p{
+    margin-top: 50px;
+}
+.foot{
+    height: 60px;
+    background-color: #0e86d4;
+    text-align: left;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+.add_second{
+    color: white;
+}
