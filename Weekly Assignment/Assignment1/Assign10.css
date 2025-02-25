@@ -534,11 +534,16 @@ footer{
 
 }
 #ab{
-    height: 655px;
-    width: 1170px;
-     /* border: 2px solid black;  */
-     margin-left: 165px; 
-    /* margin-left: 160px; */
+    height: 700px;
+    width: 1500px;
+    /* border: 2px solid black; */
+    /* display: flex;  */
+}
+#secondab{
+    height: 640px;
+    width: 1277px;
+    /* border: 2px solid black; */
+    margin-left: 160px; 
 }
 #investor{
     height: 16px;
@@ -811,16 +816,19 @@ footer{
     margin-left: 12px;
 }
 #dash11{
+    height: 16px;
+    width: 973;
     color: #707070;
     font-family: sans-serif;
     /* font-weight: 600; */
 }
 #lastfooter{
-    height: 108px;
-    width: 1170px;
-     /* border: 2px solid black; */
+    height: 50px;
+    width: 1277px;
+     /* border: 2px solid black;  */
     display: flex;
     align-items: center;
+    margin-left: 150px;
 }
 #copyrightt{
     height: 16px;
@@ -829,12 +837,13 @@ footer{
     font-family: sans-serif;
     color: #707070;
     font-weight: 600;
+    margin-left: 10px;
 }
 #media{
     height: 28px;
     width: 264px;
      /* border: 2px solid black;  */
-    margin-left: 800px;
+    margin-left: 810px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -867,13 +876,14 @@ footer{
     height: 28px;
     width: 25px;
 }
-/* #color1{
+#su1{
     height: 14px;
-    width: 1277px;
-    background-color: #00BAF2;
+    width: 1500px;
+    background-color: #00BAF2;  
+    margin-top: 20px; 
 }
-#color2{
+#su2{
     height: 14px;
-    width: 1277px;
-    background-color: #002970;
-} */
+    width: 1500px;
+    background-color:#002970;   
+}
