@@ -1,0 +1,46 @@
+body{
+    background-color: #2e8bc0; 
+    /* background-image: url("https://img.freepik.com/premium-photo/bokeh-christmas-background_78899-3383.jpg?ga=GA1.1.1166381823.1726307816&semt=ais_hybrid"); */
+}
+#parent{
+    width: 25%;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    color: #020200;
+    background-color: #b6e2d3;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+}
+
+input{
+    width: 87%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: larger;
+    font-weight: 200;
+}
+
+#parent>form>button{
+    padding: 10px;
+    width: 50%;
+    border: 2px solid black;
+    background-color: #76b947;
+    margin-bottom: 30px;
+}
+#parent>form>button:hover{
+    background-color: #76b947;
+}
+table{
+    color: white;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+table,td{
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding:10px;
+    margin: auto;
+    margin-top: 20px;
+}
