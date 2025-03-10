@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+    <header>
+        <div class="navbar">
+            <div id="menuandlogo">
+                <div id="menubar">
+                    <div id="menu">
+                        <i height="24px" width="24px" class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+                
+                <div id="youtubelogo">
+                    <div id="logo1">
+                        <img src="data:image/png;base64,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" height="50px" width="100px
+                        " alt="Youtube logo">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav_search">
+                <div id="search2">
+                    <div id="search_box">
+                        <input placeholder="Search" id="search_input">
+                        
+                    </div>
+                    <div id="search_logo">
+                        <div id="searchlogo">
+                           <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="voice_div">
+                <i id="voice_button" class="fa-solid fa-microphone"></i>
+            </div>
+            
+            <div class="nav_rightsection">
+                <div id="create_box">
+                    <i id="plus" class="fa-solid fa-plus"></i>
+                    <span id="create">Create</span>
+                </div>
+                <div id="outer_bellbox">
+                <div id="bell_box">
+                    <i id="bell" class="fa-solid fa-bell"></i>
+                </div>
+                </div>
+
+                <div id="Account_section">
+                
+                </div>
+            </div>            
+        </div>
+        
+    </header>
+
+    <!--side navbar-->
+<body>
+    <div class="body">
+        <div id="side_navbar">
+            <div id="house_box"><!--house-->
+                <i id="home_logo" class="fa-solid fa-house"></i>
+                <span id="home">Home</span>
+            </div>
+
+            <div id="outer_box">
+            <div id="shorts_box"><!--Shorts-->
+                <i id="shorts_logo" class="fa-brands fa-youtube"></i>
+                <span id="shorts">Shorts</span>
+            </div>
+            </div>
+
+            <div id="outer_box">
+            <div id="subscription_box"><!--Subscription-->
+                <i id="subscription_logo" class="fa-brands fa-square-youtube"></i>
+                <span id="subscription">Subscription</span>
+            </div>
+            </div>
+            <hr>
+
+            <div id="outer_box">
+                <div id="you_box"><!--You-->
+                    <span id="you">You</span>
+                    <i id="grater_logo" class="fa-solid fa-greater-than"></i>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="history_box"><!--History-->
+                    <i id="history_logo" class="fa-solid fa-clock-rotate-left"></i>
+                    <span id="history">History</span>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="playlist_box"><!--playlist-->
+                    <i id="playlist_logo" class="fa-solid fa-circle-play"></i>
+                    <span id="playlist">Playlist</span>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="video_box"><!--your videos-->
+                    <i id="video_logo" class="fa-solid fa-video"></i>
+                    <span id="video">Your videos</span>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="watch_box"><!--watch later-->
+                    <i id="watch_logo" class="fa-regular fa-clock"></i>
+                    <span id="watch">Watch Later</span>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="likedvideos_box"><!--Licked videos-->
+                    <i id="likedvideos_logo" class="fa-solid fa-thumbs-up"></i>
+                    <span id="likedvideos">Liked videos</span>
+                </div>
+            </div>
+            <hr>
+
+            <!--Explore-->
+             <div id="Explore_box"><!--Explore-->
+                <span id="Explore">Explore</span>
+            </div>
+
+            <div id="outer_box">
+                <div id="trending_box"><!--trending-->
+                    <i id="trending_logo" class="fa-solid fa-fire"></i>
+                    <span id="trending">Trending</span>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="shopping_box"><!--Shopping-->
+                    <i id="shopping_logo" class="fa-solid fa-bag-shopping"></i>
+                    <span id="shopping">Shopping</span>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="music_box"><!--music-->
+                    <i id="music_logo" class="fa-solid fa-music"></i>
+                    <span id="music">Music</span>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="film_box"><!--Films-->
+                    <i id="film_logo" class="fa-solid fa-film"></i>
+                    <span id="film">Film</span>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="Live_box"><!--Live-->
+                    <i id="Live_logo" class="fa-solid fa-tower-broadcast"></i>
+                    <span id="Live">Live</span>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="game_box"><!--Live-->
+                    <i id="game_logo" class="fa-solid fa-gamepad"></i>
+                    <span id="game">Gameing</span>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="news_box"><!--news-->
+                    <i id="news_logo" class="fa-solid fa-newspaper"></i>
+                    <span id="news">News</span>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="sport_box"><!--Sports-->
+                    <i id="sport_logo" class="fa-solid fa-trophy"></i>
+                    <span id="sport">Sport</span>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="course_box"><!--Courses-->
+                    <i id="course_logo" class="fa-solid fa-graduation-cap"></i>
+                    <span id="course">Courses</span>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="fashion_box"><!--Fashion-->
+                    <i id="fashion_logo" class="fa-solid fa-shirt"></i>
+                    <span id="fashion">Fashion</span>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="podcast_box"><!--Podcast-->
+                    <i id="podcast_logo" class="fa-solid fa-podcast"></i>
+                    <span id="podcast">Podcasts</span>
+                </div>
+            </div>
+            <hr>
+
+            <!--more from youtube-->
+
+            <div id="more_box"><!--Explore-->
+                <span id="more">More from YouTube</span>
+            </div>
+
+            <!--youtube premium-->
+
+            <!-- <div id="outer_box">
+                <div id="permium_box">
+                    <i id="youtubepremium_logo" class="fa-solid fa-podcast"></i>
+                    <span id="youtubepremium">YouTube Premium</span>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="podcast_box">
+                    <i id="podcast_logo" class="fa-solid fa-podcast"></i>
+                    <span id="podcast">Podcasts</span>
+                </div>
+            </div>
+
+            <div id="outer_box">
+                <div id="podcast_box">
+                    <i id="podcast_logo" class="fa-solid fa-podcast"></i>
+                    <span id="podcast">Podcasts</span>
+                </div>
+            </div> -->
+
+
+            <div id="hover_box">
+                <div id="outer_box1">
+                    <div id="premium-logobox"><div id="youtubepremium_logo"></div></div>
+                    <div id="youtubepremium">YouTube Premium</div>
+                </div>
+            </div>
+            
+           
+
+            
+
+        </div>
+
+        <!--container1-->
+
+        <div id="content_part">
+
+            <div id="row2">
+                <div id="rowdiv">
+                    <div id="a">
+                        <div id="all">
+                            All
+                        </div>
+                    </div>
+                    <div id="b">
+                       <div id="music">
+                        Music
+                       </div>
+                    </div>
+                    <div id="c">
+                        <div id="gameing">
+                         Gameing
+                        </div>
+                     </div> 
+                     <div id="d">
+                        <div id="seafood">
+                         Seafood
+                        </div>
+                     </div>
+                     <div id="e">
+                        <div id="cricket">
+                         Cricket
+                        </div>
+                     </div>
+                     <div id="f">
+                        <div id="skills">
+                         Skills
+                        </div>
+                     </div>
+                     <div id="g">
+                        <div id="mixes">
+                         Mixes
+                        </div>
+                     </div>
+                     <div id="i">
+                        <div id="live">
+                         Live
+                        </div>
+                     </div> 
+                     <div id="j">
+                        <div id="casting">
+                         Casting
+                        </div>
+                     </div>
+                     <div id="k">
+                        <div id="ocean">
+                         Oceans
+                        </div>
+                     </div>                              
+                </div>
+            </div>
+
+            <!--Video section-->
+
+            <div id="video_section">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="index.js"></script>

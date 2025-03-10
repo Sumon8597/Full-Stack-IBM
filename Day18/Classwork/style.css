@@ -1,0 +1,876 @@
+header{
+    position:fixed;
+}
+.navbar{
+    height: 56px;
+    /* border: 2px solid black; */
+    display: flex;
+    position: fixed;
+    
+}
+#menuandlogo{
+    height: 56px;
+    width: 169px;
+    /* border:2px solid black; */
+    margin-left: 20px;
+    display: flex;
+}
+#menubar{
+    height: 20px;
+    width: 20px;
+   /* border: 2px solid black; */
+   margin-top: 10px;
+   margin-top: 17px;
+}
+#menu{
+    height: 24px;
+    width: 24px;
+}
+#logo{
+    height: 30px;
+    width: 100px;
+}
+#youtubelogo{
+    height: 56px;
+    width: 100px;
+    /* border: 2px solid green; */
+    /* margin-top: 10px; */
+    /* padding-left: 20px; */
+    margin-left: 20px;
+}
+#logo1{
+    height:50px; 
+    width:100px;
+    /* border: 2px solid black; */
+}
+.nav_search{
+    height: 40px;
+    width: 700px;
+    /* border: 2px solid black; */
+    margin-left: 140px;
+    margin-top: 5px;
+}
+#search2{
+    height: 40px;
+    width: 650px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#search_box{
+    height: 40px;
+    width: 500px;
+    border: 0.1px solid #e2ded0;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-left: 50px;
+     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    
+    
+}
+#search_logo{
+    height: 40px; 
+    width: 64px;
+    background-color: #F8F8F8;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 0.1px solid #e2ded0; 
+    display: flex;
+    align-items: center;
+}
+#searchlogo{
+    height: 30px;
+    width: 30px;
+    /* margin-left: px; */
+    /* margin-top: 5px; */
+}
+#search_input{
+    height: 25px;
+    width: 500px;
+    border: none;
+    margin-left: 10px;
+     margin-top: 5px; 
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    
+    
+}
+button{
+    border: none;
+    font-size: 20px;
+    width: 60px;
+    height: 30px;
+    /* border-radius: 10px; */
+    background-color: #F8F8F8;
+}
+input{
+    border:1px solid #F8F8F8;
+}
+#voice_div{
+    height: 40px;
+    width: 40px;
+    background-color: #F8F8F8;
+    border-radius: 100px;
+    margin-top: 7px;
+}
+#voice_button{
+    margin-top: 13px;
+    margin-left: 13px;
+    
+}
+
+
+/* nav right section */
+
+.nav_rightsection{
+    height: 40px;
+    width: 300px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 130px;
+    margin-top: 8px;
+}
+#create_box{
+    height: 36px;
+    width: 98px;
+    background-color: #F8F8F8;
+    border-radius: 30px;
+}
+#plus{
+    margin-top: 9px;
+    margin-left: 10px;
+    
+}
+#create{
+    font-family: Arial;
+    font-weight: 600;
+}
+#outer_bellbox{
+    height: 50px;
+    width: 50px;
+}
+#bell_box:hover{
+    height: 40px;
+    width: 40px;
+    background-color: #F8F8F8;
+    border-radius: 100px;
+}
+#bell{
+    margin-left: 12px;
+    margin-top: 12px;
+}
+#Account_section{
+    height: 40px;
+    width: 40px;
+    background-image: url("myimage.jpg.jpg");
+    background-size: cover;
+    border-radius: 100px;
+}
+
+/* Side navbar */
+
+.body{
+    height: 900px;
+    width: auto;
+    /* border: 2px solid black;  */
+    display: flex;
+}
+#side_navbar{
+    height: 700px;
+    width: 230px;
+    /* border: 2px solid black;  */
+    overflow: scroll;
+    margin-top: 50px;
+    position:fixed;
+
+}
+#house_box{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+    
+}
+#home{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 30px;
+}
+#home_logo{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* For shorts */
+#outer_box{
+    height: 40px;
+    width: 200px;
+    /* border: 1px solid black; */
+}
+#shorts_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+    
+}
+#shorts{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 30px;
+}
+#shorts_logo{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* For subscription */
+#subscription_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#subscription{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 30px;
+}
+#subscription_logo{
+    margin-left: 23px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+/* You section */
+#you_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#you{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#grater_logo{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* For history */
+#history_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#history{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#history_logo{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* For playlist */
+
+#playlist_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#playlist{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#playlist_logo{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* For videos */
+
+#video_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#video{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#video_logo{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* For watchlater */
+
+#watch_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#watch{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#watch_logo{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* liked videos */
+
+#likedvideos_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#likedvideos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#likedvideos_logo{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* Explore */
+
+#Explore{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#Explore_box{
+    margin-top: 25px;
+}
+/* Trending */
+
+#trending_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#trending{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#trending_logo{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* Shopping */
+
+#shopping_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#shopping{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#shopping_logo{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* music */
+
+#music_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#music{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#music_logo{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* Films */
+
+#film_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#film{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#film_logo{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* live */
+
+#Live_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#Live{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#Live_logo{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* Gaming */
+#game_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#game{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#game_logo{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* News */
+#news_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#news{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#news_logo{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* Sport */
+#sport_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#sport{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#sport_logo{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* Course */
+
+#course_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#course{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#course_logo{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Fashion & beauty */
+
+#fashion_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#fashion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#fashion_logo{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* Podcast */
+#podcast_box:hover{
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+#podcast{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#podcast_logo{
+    margin-left: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* more from youtube */
+#more{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#more_box{
+    height: 20px;
+    margin-top: 30px;
+}
+/* youtube premium */
+/* #premium_box:hover{
+    height: 40px;
+    width: 200px; 
+    background-color:#F8F8F8;
+    border-radius: 10px;
+    display: flex; 
+     border: 1px solid black; 
+}  */
+/* #premium{
+    height: 20px;
+    width: 150px;
+     border: 1px solid black;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 10px; 
+} */
+/* #second_outer{
+    height: 20px;
+    width: 180px;
+     border: 1px solid black;  
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+} */
+/* #youtube_logo{
+    height: 20px;
+    width: 20px;
+     border: 1px solid black; 
+    background-image: url("https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-06-1024.png");
+    background-size: cover;
+    margin-left: 24px; 
+    margin-top: 10px;
+    font-size: 20px; 
+} */
+
+/* youtube studio logo */
+
+
+
+/* Content part */
+#content_part{
+    height: 920px;
+    width: 1300px;
+     /* border: 2px solid black;   */
+     position: fixed;
+    margin-left: 200px; 
+
+
+}
+
+#row2{
+    height: 80px;
+    width: 1250px;
+    /* background-color: #FFFFFF; */
+      /* border: 2px solid black;   */
+    margin-top: 50px;
+    /* margin-left: 220px; */
+    top: 20px;
+    position: fixed;
+
+}
+#rowdiv{
+    height: 50px;
+    width: 1250px;
+    /* border: 2px solid black;  */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#a{
+    height: 32px;
+    width: 40px;
+    background-color: #0F0F0F; 
+    border-radius: 10px;
+}
+#all{
+    height: 20px;
+    width: 16px;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-top: 6px;
+    padding-left: 8px;
+}
+#b{
+    height: 32px;
+    width: 62px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+#music{
+    height:20px;
+    width: 38px;
+    font-size: 14px;
+    color: #0f0f0f;
+    margin-top: 6px;
+    /* margin-right: 2px; */
+    margin-left: 12px;
+}
+#c{
+    height: 32px;
+    width:  75px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+#gameing{
+    height: 20px;
+    width: 48px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F0F0F;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+#d{
+    height: 32px;
+    width:  76px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+#seafood{
+    height: 20px;
+    width: 52px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #0F0F0F;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#e{
+    height: 32px;
+    width:  68px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+#cricket{
+    height: 20px;
+    width: 44px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #0F0F0F;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#f{
+    height: 32px;
+    width:  52px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+#skills{
+    height: 20px;
+    width: 33px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #0F0F0F;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#g{
+    height: 32px;
+    width:  61px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+#mixes{
+    height: 20px;
+    width: 37px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #0F0F0F;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#i{
+    height: 32px;
+    width:  49px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+#live{
+    height: 20px;
+    width: 25px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #0F0F0F;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#j{
+    height: 32px;
+    width:  71px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+#casting{
+    height: 20px;
+    width: 47px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #0F0F0F;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#k{
+    height: 32px;
+    width:  71px;
+    background-color: #F8F8F8;
+    border-radius: 10px; 
+}
+#ocean{
+    height: 20px;
+    width: 47px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #0F0F0F;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#row3{
+    height: 400px;
+    width: 1250px;
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-evenly;
+}
+#video_section{
+    height: 800px;
+    width: 1250px;
+    /* border: 2px solid black; */
+    margin-left: 50px;
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    overflow: scroll;
+}
+/*you tube premium*/
+#outer_box1{
+    height: 40px;
+    width: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    
+}
+#youtubepremium_logo{
+    height: 24px;
+    width: 24px;
+    background-image: url("youtube.png");
+    background-size: cover;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+#premium-logobox{
+    height: 40px;
+    width: 50px;
+    /* border: 1px solid black; */
+}
+#youtubepremium{
+    height: 20px;
+    width: 140px;
+    /* border: 1px solid black; */
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 9px;
+}
+#hover_box:hover{
+    height: 50px;
+    width: 204px;
+    background-color: #F8F8F8;
+    border-radius: 20px;
+}
+
+
+
+
